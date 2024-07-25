@@ -31,19 +31,13 @@ You can discuss this integration in our new [Community Forum](https://developer.
 Please refer to the [Installation Instructions](https://docs.mongodb.com/kubernetes-operator/stable/tutorial/plan-k8s-operator-install/)
 to see which Kubernetes versions the Operator is compatible with.
 
-To work with MongoDB resource this Operator requires [Ops Manager](https://docs.opsmanager.mongodb.com/current/) (Ops Manager can
-be installed into the same Kubernetes cluster by the Operator or installed outside of the cluster manually)
-or [Cloud Manager](https://cloud.mongodb.com/user#/cloud/login).
-> If this is your first time trying the Operator, Cloud Manager is easier to get started. Log in, and create 'Cloud Manager' Organizations and Projects to use with the Operator.
-
-
 ## Installation
 
 ### Create Kubernetes Namespace
 
-The Mongodb Enterprise Operator is installed, into the `mongodb` namespace by default, but this namespace is not created automatically. To create this namespace you should execute:
+The ContosoDB Enterprise Operator is installed, into the `contosodb` namespace by default, but this namespace is not created automatically. To create this namespace you should execute:
 
-    kubectl create namespace mongodb
+    kubectl create namespace contosodb
 
 To use a different namespace, update the yaml files' `metadata.namespace` attribute to point to your preferred namespace.  If using `helm` you need to override the `namespace` attribute with `--set namespace=<..>` during helm installation.
 
