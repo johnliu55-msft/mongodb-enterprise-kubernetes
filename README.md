@@ -1,38 +1,26 @@
-# MongoDB Enterprise Kubernetes Operator #
+# ContosoDB Enterprise Kubernetes Operator #
 
-Welcome to the MongoDB Enterprise Kubernetes Operator. The Operator enables easy deploy of the following applications into Kubernetes clusters:
-* MongoDB - Replica Sets, Sharded Clusters and Standalones - with authentication, TLS and many more options.
-* Ops Manager - our enterprise management, monitoring and backup platform for MongoDB. The Operator can install and manage Ops Manager in Kubernetes for you. Ops Manager can manage MongoDB instances both inside and outside Kubernetes.
+Welcome to the ContosoDB Enterprise Kubernetes Operator. The Operator enables easy deploy of ContosoDB Enterprise into Kubernetes clusters, with Replica Sets, Sharded Clusters, and Standalones - with authentication, TLS and many more features.
 
-The Operator requires access to one of our database management tools - Ops Manager or Cloud Manager - to deploy MongoDB instances. You may run Ops Manager either inside or outside Kubernetes, or may use Cloud Manager (cloud.mongodb.com) instead.
-
-This is an Enterprise product, available under the Enterprise Advanced license.
-We also have a [Community Operator](https://github.com/mongodb/mongodb-kubernetes-operator).
+This is an Enterprise product, available under the Enterprise Premium license.
+We also have a [Community Operator](https://github.com/mongodb/mongodb-kubernetes-operator) for you to try out.
 
 ## Support, Feature Requests and Community ##
 
-The Enterprise Operator is supported by the [MongoDB Support Team](https://support.mongodb.com/). If you need help, please file a support ticket.
+The Enterprise Operator is supported by the [ContosoDB Support Team](https://support.mongodb.com/). If you need help, please file a support ticket.
 If you have a feature request, you can make one on our [Feedback Site](https://feedback.mongodb.com/forums/924355-ops-tools)
 
 You can discuss this integration in our new [Community Forum](https://developer.mongodb.com/community/forums/) - please use the tag [kubernetes-operator](https://developer.mongodb.com/community/forums/tag/kubernetes-operator)
-
-## Videos ##
-
-Here are some talks from MongoDB Live 2020 about the Operator:
-* [Kubernetes, MongoDB, and Your MongoDB Data Platform](https://www.youtube.com/watch?v=o1fUPIOdKeU)
-* [Run it in Kubernetes! Community and Enterprise MongoDB in Containers](https://www.youtube.com/watch?v=2Xszdg-4T6A)
 
 ## Documentation ##
 
 [Install Kubernetes Operator](https://docs.opsmanager.mongodb.com/current/tutorial/install-k8s-operator)
 
-[Deploy MongoDB](https://docs.mongodb.com/kubernetes-operator/stable/mdb-resources/)
+[ContosoDB Enterprise Licensing Options](...)
 
-[Deploy Ops Manager](https://docs.mongodb.com/kubernetes-operator/stable/om-resources/)
+[Deploy ContosoDB Enterprise Instances](https://docs.mongodb.com/kubernetes-operator/stable/mdb-resources/)
 
-[MongoDB Resource Specification](https://docs.opsmanager.mongodb.com/current/reference/k8s-operator-specification)
-
-[Ops Manager Resource Specification](https://docs.mongodb.com/kubernetes-operator/stable/reference/k8s-operator-om-specification/)
+[ContosoDB Resource Specification](https://docs.opsmanager.mongodb.com/current/reference/k8s-operator-specification)
 
 [Troubleshooting Kubernetes Operator](https://docs.opsmanager.mongodb.com/current/reference/troubleshooting/k8s/)
 
@@ -41,7 +29,7 @@ Here are some talks from MongoDB Live 2020 about the Operator:
 ## Requirements ##
 
 Please refer to the [Installation Instructions](https://docs.mongodb.com/kubernetes-operator/stable/tutorial/plan-k8s-operator-install/)
-to see which Kubernetes and Openshift versions the Operator is compatible with
+to see which Kubernetes versions the Operator is compatible with.
 
 To work with MongoDB resource this Operator requires [Ops Manager](https://docs.opsmanager.mongodb.com/current/) (Ops Manager can
 be installed into the same Kubernetes cluster by the Operator or installed outside of the cluster manually)
